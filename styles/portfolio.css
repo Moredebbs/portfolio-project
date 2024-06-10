@@ -1,3 +1,12 @@
+.box h2 {
+  font-size: 64px;
+  color: #f4f4f4;
+}
+
+p {
+  color: #f4f4f4;
+}
+
 .container {
   background-color: #222324;
 }
@@ -41,4 +50,22 @@
 }
 .icon {
   font-size: 86px;
+}
+.btn-branding-outline {
+  background-color: #222324;
+  border-color: #222324;
+  color: #f4f4f4;
+  font-size: 18px;
+  padding: 18px, 30px, 18px, 30px;
+  width: 200px;
+  height: 63px;
+  border-radius: 4px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.btn-branding-outline:hover {
+  transition: 200ms ease-in-out;
+  color: #222324;
+  background-color: #f4f4f4;
 }
