@@ -9,6 +9,7 @@ p {
 }
 .main-pic {
   width: 100%;
+  border-radius: 5px;
 }
 
 .container {
@@ -33,7 +34,12 @@ p {
   font-size: 24px;
   line-height: 36px;
 }
-
+.about-hero h1 {
+  font-size: 64px;
+}
+.about-section-content {
+  padding-right: 30px;
+}
 .btn-branding {
   background-color: #222324;
   border-color: #222324;
@@ -92,5 +98,13 @@ p {
   }
   .hero {
     padding: 80px 20;
+  }
+  .about-hero {
+    padding: 0;
+    text-align: center;
+  }
+  .main-pic {
+    margin: 0 auto;
+    display: block;
   }
 }
