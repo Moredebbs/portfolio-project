@@ -7,6 +7,23 @@ p {
   color: #f4f4f4;
   line-height: 30px;
 }
+.content h3 {
+  color: #f4f4f4;
+  font-size: 24px;
+  margin: 20px 0 0;
+  font-family: "poppins", sans-serif;
+}
+.content p {
+  opacity: 50%;
+}
+.content img {
+  transition: transform 0.4s ease-in-out;
+}
+.content img :hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 .main-pic {
   width: 100%;
   border-radius: 5px;
@@ -34,10 +51,10 @@ p {
   font-size: 24px;
   line-height: 36px;
 }
-.about-hero h1 {
+.content-container h1 {
   font-size: 64px;
 }
-.about-section-content {
+.content {
   padding-right: 30px;
 }
 .btn-branding {
