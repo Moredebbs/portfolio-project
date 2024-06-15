@@ -27,6 +27,7 @@ p {
 
 .container {
   background-color: #222324;
+  color: #f4f4f4;
 }
 .hero {
   text-align: center;
@@ -78,6 +79,30 @@ p {
 .icon {
   font-size: 86px;
 }
+.logo {
+  max-width: 10%;
+}
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: #f4f4f4;
+  transition: all 100ms ease-in-out;
+}
+
+.active a {
+  color: #b480b1;
+}
 .btn-branding-outline {
   background-color: #222324;
   border-color: #222324;
@@ -103,25 +128,25 @@ p {
   .hero h1 {
     font-size: 55px;
   }
-  .project-description h2 {
-    font-size: 40px;
-  }
-  .icon {
-    font-size: 50px;
-  }
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-  .hero {
-    padding: 80px 20;
-  }
-  .about-hero {
-    padding: 0;
-    text-align: center;
-  }
-  .main-pic {
-    margin: 0 auto;
-    display: block;
-  }
+}
+.project-description h2 {
+  font-size: 40px;
+}
+.icon {
+  font-size: 50px;
+}
+.project-description {
+  padding: 0;
+  text-align: center;
+}
+.hero {
+  padding: 80px 20;
+}
+.about-hero {
+  padding: 0;
+  text-align: center;
+}
+.main-pic {
+  margin: 0 auto;
+  display: block;
 }
