@@ -1,9 +1,22 @@
+.boxes {
+  background-color: #f4f4f4;
+}
+.container {
+  background-color: #222324;
+  color: #f4f4f4;
+  width: 100%;
+}
 .container a {
   text-decoration: none;
 }
 .box h2 {
   font-size: 64px;
   color: #f4f4f4;
+}
+.logo {
+  font-size: 30px;
+  padding-left: 40px;
+  font-weight: 300px;
 }
 
 p {
@@ -25,10 +38,6 @@ p {
   border-radius: 5px;
 }
 
-.container {
-  background-color: #222324;
-  color: #f4f4f4;
-}
 .hero {
   text-align: center;
   padding: 180px 0;
@@ -123,6 +132,49 @@ nav a {
 }
 .project-description {
   padding: 120px 60px;
+}
+footer {
+  margin: 60px 0;
+}
+.footer-container {
+  background-color: #f4f4f4;
+  color: #222324;
+}
+.footer-head {
+  font-size: 60px;
+  margin: 30px;
+  padding: 80px;
+}
+.footer-dot {
+  font-size: 100px;
+}
+.footer-p {
+  color: #222324;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 60px;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 40px;
+}
+footer .email-link :hover {
+  color: #b480b1;
+}
+.footer-icon {
+  color: #222324;
+  font-size: 44px;
+  opacity: 87%;
+  padding-left: 60px;
+}
+footer .social-links a {
+  text-decoration: none;
+  color: #222324;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 60px;
+  font-family: "Poppins", sans-serif;
+}
+footer .social-links :hover {
+  color: #b480b1;
 }
 @media (max-width: 900px) {
   .hero h1 {
