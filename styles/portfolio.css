@@ -4,7 +4,14 @@
 .container {
   background-color: #222324;
   color: #f4f4f4;
+  margin: 0;
+  display: block;
+  padding: 0;
+  height: 100%;
   width: 100%;
+}
+.boxes {
+  background-color: #222324;
 }
 .container a {
   text-decoration: none;
