@@ -20,11 +20,6 @@
   font-size: 64px;
   color: #f4f4f4;
 }
-.logo {
-  font-size: 30px;
-  padding-left: 40px;
-  font-weight: 300px;
-}
 
 p {
   color: #f4f4f4;
@@ -95,8 +90,9 @@ p {
 .icon {
   font-size: 86px;
 }
-.logo {
-  max-width: 10%;
+nav .logo {
+  display: flex;
+  width: 12%;
 }
 nav {
   padding: 20px 0;
@@ -147,13 +143,9 @@ footer {
   background-color: #f4f4f4;
   color: #222324;
 }
-.footer-head {
-  font-size: 60px;
-  margin: 30px;
-  padding: 80px;
-}
-.footer-dot {
-  font-size: 100px;
+.footer-head .footer-logo {
+  display: flex;
+  width: 25%;
 }
 .footer-p {
   color: #222324;
@@ -187,25 +179,29 @@ footer .social-links :hover {
   .hero h1 {
     font-size: 55px;
   }
-}
-.project-description h2 {
-  font-size: 40px;
-}
-.icon {
-  font-size: 50px;
-}
-.project-description {
-  padding: 0;
-  text-align: center;
-}
-.hero {
-  padding: 80px 20;
-}
-.about-hero {
-  padding: 0;
-  text-align: center;
-}
-.main-pic {
-  margin: 0 auto;
-  display: block;
+
+  .project-description h2 {
+    font-size: 40px;
+  }
+  .icon {
+    font-size: 50px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20;
+  }
+  .about-hero {
+    padding: 0;
+    text-align: center;
+  }
+  .main-pic {
+    margin: 0 auto;
+    display: block;
+  }
+  .footer-head .footer-logo {
+    padding-left: 50px;
+  }
 }
