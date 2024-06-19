@@ -42,7 +42,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 180px 0;
+  padding: 60px 0;
 }
 
 .hero h1 {
@@ -69,7 +69,7 @@ p {
 .content {
   padding-right: 30px;
 }
-.btn-branding {
+a .btn-branding {
   background-color: #222324;
   border-color: #222324;
   color: #f4f4f4;
@@ -118,20 +118,21 @@ nav a {
 .contact-page a {
   color: #b480b1;
 }
-.btn-branding-outline {
+.project-description .btn-branding-outline {
   background-color: #222324;
   border-color: #222324;
   color: #f4f4f4;
   font-size: 18px;
-  padding: 18px, 30px, 18px, 30px;
+  padding: 15px, 30px;
   width: 200px;
   height: 63px;
   border-radius: 4px;
   line-height: 27px;
   margin-bottom: 30px;
   margin-top: 30px;
+  border: 1px solid;
 }
-.btn-branding-outline:hover {
+.project-description .btn-branding-outline:hover {
   transition: 200ms ease-in-out;
   color: #222324;
   background-color: #f4f4f4;
